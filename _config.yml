@@ -1,0 +1,12 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+
+# Permalinks
+permalink: pretty
+
+# Exclude the following files/directories from being converted
+exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
+
+# Variables
+jekyllkb_version: 0.1.0-pre

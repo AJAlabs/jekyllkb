@@ -1,0 +1,10 @@
+# Ignore compiled site
+_site
+_gh_pages
+
+# Always ignore
+.DS_Store
+*.sass-cache
+.ruby-gemset
+.ruby-version
+Gemfile.lock
