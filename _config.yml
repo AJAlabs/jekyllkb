@@ -10,3 +10,22 @@ exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
 
 # Variables
 jekyllkb_version: 0.1.0-pre
+
+#########################
+# Plugin: jekyll-assets #
+#########################
+
+# Assets Pipeline
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _vendor/assets/javascripts
+    - _vendor/assets/stylesheets
+    - _vendor/assets/fonts
+
+# Minify and Compress Assets
+js_compressor: uglifier
+css_compressor: sass
