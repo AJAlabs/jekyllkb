@@ -1,6 +1,7 @@
-name: Your New Jekyll Site
+name: Your New Jekyll Knowledge Base
 markdown: redcarpet
 pygments: true
+
 
 # Permalinks
 permalink: pretty
@@ -24,8 +25,15 @@ assets:
     - _assets/fonts
     - _vendor/assets/javascripts
     - _vendor/assets/stylesheets
+    - _vendor/assets/stylesheets/color-me-sass
     - _vendor/assets/fonts
 
-# Minify and Compress Assets
-js_compressor: uglifier
-css_compressor: sass
+  # Minify and Compress Assets
+  #js_compressor: uglifier
+  #css_compressor: sass
+  compress:
+    css: sass
+    js: uglifier
+
+  # Disable asset gzip
+  gzip: false
