@@ -1,0 +1,26 @@
+@import "bootstrap/bootstrap";
+@import "colors/color-me-sass.scss";
+@import "custom/custom.scss";
+
+// Bootstrap font icons path using jekyll-assets
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url(asset_path('fonts/bootstrap/#{$icon-font-name}.eot'));
+  src: url(asset_path('fonts/bootstrap/#{$icon-font-name}.eot?#iefix')) format('embedded-opentype'),
+       url(asset_path('fonts/bootstrap/#{$icon-font-name}.woff')) format('woff'),
+       url(asset_path('fonts/bootstrap/#{$icon-font-name}.ttf')) format('truetype'),
+       url(asset_path('fonts/bootstrap/#{$icon-font-name}.svg#glyphicons-halflingsregular')) format('svg');
+}
+
+
+// Font Awesome font icons path using jekyll-assets
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(asset_path('fonts/font-awesome/fontawesome-webfont.eot'));
+  src: url(asset_path('fonts/font-awesome/fontawesome-webfont.eot?#iefix')) format('embedded-opentype'),
+       url(asset_path('fonts/font-awesome/fontawesome-webfont.woff')) format('woff'),
+       url(asset_path('fonts/font-awesome/fontawesome-webfont.ttf')) format('truetype'),
+       url(asset_path('fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular')) format('svg');
+  font-weight: normal;
+  font-style:  normal;
+}

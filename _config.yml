@@ -19,14 +19,13 @@ jekyllkb_version: 0.1.0-pre
 # Assets Pipeline
 assets:
   sources:
+    - _assets
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/fonts
-    - _vendor/assets/javascripts
-    - _vendor/assets/stylesheets
-    - _vendor/assets/stylesheets/color-me-sass
-    - _vendor/assets/fonts
+    #- _assets/fonts/bootstrap
+    #- _assets/fonts/font-awesome
 
   # Minify and Compress Assets
   #js_compressor: uglifier
