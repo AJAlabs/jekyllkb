@@ -4,5 +4,3 @@
 # require "jekyllkb"
 #
 # @since JekyllKB v0.1.0
-
-require 'jekyll-assets'

@@ -63,7 +63,7 @@ jekyllkb/
 |    ├── post-index.html  // post listing layout
 |    └── post.html  // post layout
 ├── _posts // Blog posts
-├── articles // Knowledge Base articles
+├── kb // Knowledge Base articles
 ├── pages // Static site pages
 └── index.html  // Homepage
 ```
