@@ -1,16 +1,41 @@
-name: Your New Jekyll Knowledge Base
+# JekyllKB - Configuration and Settings
+# Details and configuration options can be found here: http://jekyllrb.com/docs/configuration/
+#
+
+# Name your site
+name: JekyllKB
+
+meta:
+  description:
+  author:
+
+# Global Settings
 markdown: redcarpet
 pygments: true
+encoding: UTF-8
 
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 # Permalinks
 permalink: pretty
 
+# Absolute permalinks allows us to store pages in a pages subdirectory
+# and customize how the permalink appear on a page by page basis
+# ie: A file in pages/resources/getting-started.html can have the permalink of
+# http://mydomain.com/resources/getting-started.html
+relative_permalinks: false
+
 # Exclude the following files/directories from being converted
-exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
+exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
 
 # Variables
 jekyllkb_version: 0.1.0-pre
+bootstrap_version: 3.0.0
+font_awesome_version: 4.0.1
+modernizr_version: 2.6.2
+color_me_sass_version: 1.3
 
 #########################
 # Plugin: jekyll-assets #
@@ -24,12 +49,8 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/fonts
-    #- _assets/fonts/bootstrap
-    #- _assets/fonts/font-awesome
 
   # Minify and Compress Assets
-  #js_compressor: uglifier
-  #css_compressor: sass
   compress:
     css: sass
     js: uglifier
