@@ -1,5 +1,7 @@
 ## JekyllKB
 
+[![Stories in Ready](https://badge.waffle.io/synculus/jekyllkb.png?label=ready)](https://waffle.io/synculus/jekyllkb)
+
 [JekyllKB](http://jekyllkb.com) - A Knowledge Base framework for [jekyll](http://jekyllrb.com) the static site generator in Ruby.
 
 JekyllKB can be used as a knowledge base framework or starter theme for your Jekyll documentation site.
