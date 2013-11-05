@@ -5,9 +5,9 @@ links:
     url: /
   - title: About
     url: /about
+  - title: Blog
+    url: /blog
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+    url: https://github.com/Synculus/jekyllkb
     external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
+    
