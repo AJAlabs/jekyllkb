@@ -8,10 +8,8 @@
     {% if site.meta.author %}<meta name="author" content="{{ site.meta.author }}">{% endif %}
     <title>{{ site.name }} {% if page.title %} | {{ page.title }} {% endif %}</title>
     
-    <!-- syntax highlighting and default CSS -->
-    <!-- TODO: extract syntax.css into assets and remove main.css -->
+    <!-- TODO: extract syntax.css into assets -->
     <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main.css">
 
     <!-- Compiled and minified CSS -->
     {% stylesheet jekyllkb %}
