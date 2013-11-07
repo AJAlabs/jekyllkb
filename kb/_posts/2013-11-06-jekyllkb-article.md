@@ -1,16 +1,17 @@
 ---
-layout: post
-title:  "Welcome to JekyllKB!"
-date:   2013-10-17 12:06:56
-categories: jekyll update
+layout: kb
+title:  "JekyllKB Knowledge Base Articles"
+date:   2013-11-06 12:06:56
+categories: kb
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-Pages will live in the _pages directory.
+Pages can be added to the root of directory. The about/index.html page is an example.
 
-Knowledge Base articles will live in the _articles directory.
+Knowledge Base articles will live in the kb/_posts directory.  
+The Knowledge Base index page is located at kb/index.html.
 
 Jekyll also offers powerful support for code snippets:
 

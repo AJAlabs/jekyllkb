@@ -1,5 +1,8 @@
-# Links to include in the navigation bar
-# For external links add external: true
+# JekyllKB v0.1.0-pre - Navigation Bar Permalinks
+# Set the permalinks or external URLs for the navbar
+# For external URLs add external: true
+#
+
 links:
   - title: Home
     url: /

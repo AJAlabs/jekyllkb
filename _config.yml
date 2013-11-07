@@ -1,5 +1,6 @@
-# JekyllKB - Configuration and Settings
-# Details and configuration options can be found here: http://jekyllrb.com/docs/configuration/
+# JekyllKB v0.1.0-pre - Configuration and Settings
+# Details and configuration options can be found
+# here: http://jekyllrb.com/docs/configuration/
 #
 
 # Name your site
@@ -19,7 +20,7 @@ encoding: UTF-8
 timezone: America/New_York
 
 # Permalinks
-permalink: pretty
+permalink: none
 
 # Absolute permalinks allows us to store pages in a pages subdirectory
 # and customize how the permalink appear on a page by page basis
@@ -32,7 +33,7 @@ exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md',
 
 # Variables
 jekyllkb_version: 0.1.0-pre
-bootstrap_version: 3.0.0
+bootstrap_version: 3.0.2
 font_awesome_version: 4.0.1
 modernizr_version: 2.6.2
 color_me_sass_version: 1.3

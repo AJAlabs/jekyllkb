@@ -7,10 +7,7 @@
     {% if site.meta.description %}<meta name="description" content="{{ site.meta.description }}">{% endif %}
     {% if site.meta.author %}<meta name="author" content="{{ site.meta.author }}">{% endif %}
     <title>{{ site.name }} {% if page.title %} | {{ page.title }} {% endif %}</title>
-    
-    <!-- TODO: extract syntax.css into assets -->
-    <link rel="stylesheet" href="/css/syntax.css">
 
     <!-- Compiled and minified CSS -->
-    {% stylesheet jekyllkb %}
+    {% stylesheet application %}
   </head>

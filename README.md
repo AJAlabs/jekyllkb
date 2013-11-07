@@ -42,30 +42,38 @@ Installing JekyllKB is easy and straight-forward, but there are a few requiremen
 
 ```
 jekyllkb/
-├── _assets
-|    ├── fonts
-|    ├── images
-|    ├── javascripts
+├── _assets/
+|    ├── fonts/
+|    ├── images/
+|    ├── javascripts/
+|    |   ├── custom/       // Custom javascripts
 |    |   ├── bootstrap.js  // Bootstrap compiled javascript
-|    |   ├── jekyllkb.js  // JekyllKB javascript that requires all other javascripts
-|    |   ├── jquery.js  // jQuery
-|    |   ├── custom  // Custom javascripts
-|    ├── stylesheets // Preprocessed Sass styles
-├── _includes
-|    ├── custom  // directory to store your custom includes
-|    ├── analytics.html  // Google Analytics
-|    ├── footer.html  //site footer
-|    ├── header.html  //site head
-├── _layouts
-|    ├── custom  // directory to store your custom layouts
-|    ├── home.html  // homepage layout
-|    ├── page.html  // page layout
-|    ├── post-index.html  // post listing layout
-|    └── post.html  // post layout
-├── _posts // Blog posts
-├── kb // Knowledge Base articles
-├── pages // Static site pages
-└── index.html  // Homepage
+|    |   ├── jekyllkb.js   // JekyllKB javascript that requires all other javascripts
+|    |   ├── jquery.js     // jQuery
+|    ├── stylesheets/      // Preprocessed Sass styles
+├── _includes/
+|    ├── custom/           // directory to store your custom includes
+|    ├── analytics.html    // Google Analytics
+|    ├── footer.html       //site footer
+|    ├── header.html       //site head
+├── _layouts/
+|    ├── custom/           // directory to store your custom layouts
+|    ├── home.html         // homepage layout
+|    ├── page.html         // page layout
+|    ├── post-index.html   // post listing layout
+|    └── post.html         // post layout
+├── _plugins/
+├── about/
+|    ├── index.html        // Default About Page
+├── contact/
+|    ├── index.html        // Default Contact Page
+├── blog/
+|    ├── _posts/           // Blog posts directory
+|    ├── index.html        // Blog index file
+├── kb/
+|    ├── _posts/           // Knowledge Base articles directory
+|    ├── index.html        // Knowledge Base index file
+└── index.html             // Homepage
 ```
 
 
