@@ -8,6 +8,18 @@ JekyllKB can be used as a knowledge base framework or starter theme for your Jek
 
 THIS IS A PRE-RELEASE VERSION. STAY TUNED!
 
+
+### Installation
+
+1. Fork and clone this repo
+
+2. From your local clone run `bundle install`
+
+3. Once bundler is finished you can fire up Jekyll: `jekyll serve --watch`
+
+That's it! You're now ready to start hacking on your new knowledge base. enjoy!
+
+
 ### Usage
 
 - placeholder
