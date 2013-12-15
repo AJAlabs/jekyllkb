@@ -1,4 +1,4 @@
-# JekyllKB v0.1.0-pre - Configuration and Settings
+# JekyllKB v0.1.0 - Configuration and Settings
 # Details and configuration options can be found
 # here: http://jekyllrb.com/docs/configuration/
 #
@@ -30,13 +30,6 @@ relative_permalinks: false
 
 # Exclude the following files/directories from being converted
 exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
-
-# Variables
-jekyllkb_version: 0.1.0-pre
-bootstrap_version: 3.0.2
-font_awesome_version: 4.0.1
-modernizr_version: 2.6.2
-color_me_sass_version: 1.3
 
 #########################
 # Plugin: jekyll-assets #

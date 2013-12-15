@@ -1,16 +1,16 @@
-# JekyllKB v0.1.0-pre - Navigation Bar Permalinks
+# JekyllKB v0.1.0 - Navigation Bar Permalinks
 # Set the permalinks or external URLs for the navbar
 # For external URLs add external: true
 #
 
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Blog
-    url: /blog
-  - title: Github
-    url: https://github.com/Synculus/jekyllkb
-    external: true
-    
+- title: Blog
+  url: /blog
+- title: About
+  url: /about
+- title: Contact
+  url: /contact
+- title: Github
+  url: https://github.com/AJAlabs/jekyllkb
+  external: true
+- title: Knowledge Base
+  url: /kb

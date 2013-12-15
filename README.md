@@ -1,21 +1,21 @@
-## JekyllKB
+## JekyllKB v0.1.0
 
-[![Stories in Ready](https://badge.waffle.io/synculus/jekyllkb.png?label=ready)](https://waffle.io/synculus/jekyllkb)
 
 [JekyllKB](http://jekyllkb.com) - A Knowledge Base framework for [jekyll](http://jekyllrb.com) the static site generator in Ruby.
 
 JekyllKB can be used as a knowledge base framework or starter theme for your Jekyll documentation site.
 
-THIS IS A PRE-RELEASE VERSION. STAY TUNED!
-
+Version 0.1.0 is just a simple Jekyll starter theme. STAY TUNED!
 
 ### Installation
 
-1. Fork and clone this repo
+1. Install Jekyll: `gem install jekyll`
 
-2. From your local clone run `bundle install`
+2. Fork and clone this repo](https://github.com/AJAlabs/jekyllkb/fork)
 
-3. Once bundler is finished you can fire up Jekyll: `jekyll serve --watch`
+3. From your local clone run `bundle install`
+
+4. Once bundler is finished you can fire up Jekyll: `jekyll serve --watch`
 
 That's it! You're now ready to start hacking on your new knowledge base. enjoy!
 
@@ -100,8 +100,6 @@ Have a bug or a feature request? [Please open a new issue](https://github.com/Sy
 
 
 ### Versioning
-
-**THIS IS A PRE-RELEASE VERSION**
 
 Jekyll**KB** is maintained under the Semantic Versioning guidelines as much as possible.
 

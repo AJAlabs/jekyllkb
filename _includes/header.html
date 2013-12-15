@@ -1,5 +1,3 @@
-  <body>
-
     <div class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -9,27 +7,19 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="{{ site.url }}/">{{ site.name }}</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li{% if page.slug == "home" %} class="active"{% endif %}>
-                  <a href="{{ site.url }}/">Home</a>
-                </li>
-                <li{% if page.slug == "about" %} class="active"{% endif %}>
-                  <a href="{{ site.url }}/about/">About</a>
-                </li>
-                <li{% if page.slug == "blog" %} class="active"{% endif %}>
-                  <a href="{{ site.url }}/blog/">Blog</a>
-                </li>
-                <li{% if page.slug == "contact" %} class="active"{% endif %}>
-                  <a href="{{ site.url }}/contact">Contact</a>
-                </li>
-                <li{% if page.slug == "kb" %} class="active"{% endif %}>
-                  <a href="{{ site.url }}/kb/">Knowledge Base</a>
-                </li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
         </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              {% for link in site.data.navbar %}
+                  <li {% if page.title == link.title %}class="active"{% endif %}>
+                    <a href="{% if link.external %}{{ link.url }}
+                               {% else %}
+                                {{ site.url }}{{ link.url }}
+                             {% endif %}"
+                    {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
+                  </li>
+              {% endfor %}
+            </ul>
+          </div><!--/.nav-collapse -->
+      </div>
+    </div>
