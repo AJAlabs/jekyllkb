@@ -9,7 +9,7 @@
           <a class="navbar-brand" href="{{ site.url }}/">{{ site.name }}</a>
         </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav nav-links">
               {% for link in site.data.navbar %}
                   <li {% if page.title == link.title %}class="active"{% endif %}>
                     <a href="{% if link.external %}{{ link.url }}

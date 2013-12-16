@@ -1,4 +1,4 @@
-// JekyllKB v0.1.0-pre - Sass Stylesheet
+// JekyllKB v0.1.0 - Sass Stylesheet
 
 // Bootstrap font icons path using jekyll-assets
 @font-face {
@@ -23,3 +23,23 @@
   font-style:  normal;
 }
 
+
+// NAVBAR
+// -------------------------
+
+.navbar {
+  border-radius: 0;
+}
+
+// Navbar links float right for desktop and left for mobile
+@media (max-width: 767px) {
+  .nav-links {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+  float: right;
+  }
+}
