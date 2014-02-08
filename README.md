@@ -1,17 +1,17 @@
-## JekyllKB v0.1.0
+## JekyllKB v0.1.1
 
 
 [JekyllKB](http://jekyllkb.com) - A Knowledge Base framework for [jekyll](http://jekyllrb.com) the static site generator in Ruby.
 
 JekyllKB can be used as a knowledge base framework or starter theme for your Jekyll documentation site.
 
-Version 0.1.0 is just a simple Jekyll starter theme. STAY TUNED!
+Version 0.1.1 is just a simple Jekyll starter theme. STAY TUNED!
 
 ### Installation
 
 1. Install Jekyll: `gem install jekyll`
 
-2. Fork and clone this repo](https://github.com/AJAlabs/jekyllkb/fork)
+2. [Fork and clone this repo](https://github.com/AJAlabs/jekyllkb/fork)
 
 3. From your local clone run `bundle install`
 

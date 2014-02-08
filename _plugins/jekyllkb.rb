@@ -11,7 +11,7 @@ module Jekyll
 
       def initialize(tag_name, version, tokens)
         super
-        @version = '0.1.0'
+        @version = '0.1.1'
       end
       
       def render(context)

@@ -1,8 +1,9 @@
-// JekyllKB v0.1.0 - Application Stylesheet
+// JekyllKB v0.1.1 - Application Stylesheet
 // All Sass styles can be overridden by modifying the custom/custom.scss file
 // New Sass stylesheets should be added below using @import
 
 @import "bootstrap/bootstrap";
+@import "font-awesome/font-awesome.scss";
 @import "colors/color-me-sass.scss";
 @import "syntax.scss";
 @import "jekyllkb.scss";
