@@ -27,16 +27,12 @@ That's it! You're now ready to start hacking on your new knowledge base. enjoy!
 
 ### Resources & Dependancies
 
-- [Color Me SASS](http://richbray.me/cms/)
+- [Bootstrap Sass](http://getbootstrap.com)
 - [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/)
-- [Grunt: The JavaScript Task Runner](http://gruntjs.com)
 - [Jekyll](http://jekyllrb.com/)
 - [jekyll-assets](https://github.com/ixti/jekyll-assets)
 - [Liquid - Template engine](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- [Modernizr](http://modernizr.com)
 - [Sass - Syntactically Awesome Stylesheets](http://sass-lang.com/)
-- [SASS Bootstrap](https://github.com/jlong/sass-bootstrap)
-- [Uglifier](https://github.com/lautis/uglifier)
 
 [Introduction to Jekyll-Assets](http://ixti.net/software/2012/12/30/unleash-mr-hyde-introduction-of-jekyll-assets.html)
 
@@ -47,7 +43,6 @@ Installing JekyllKB is easy and straight-forward, but there are a few requiremen
 
 - [Ruby](http://www.ruby-lang.org/en/downloads/)
 - [RubyGems](http://rubygems.org/pages/download)
-- Linux, Unix, or Mac OS X
 
 
 ### Directory Structure and Ruby on Rails style asset pipeline

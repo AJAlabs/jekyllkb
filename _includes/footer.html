@@ -1,4 +1,21 @@
 <footer>
+  <div class="page-header"></div><!-- inserts the line separator -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          {% if site.copyright %}
+          <p>&copy; Copyright {{ site.time | date: "%Y" }} - {{ site.copyright }}</p>
+          {% endif %}
+        </div>
+        <div class="col-md-4 text-center">
+          <h5></h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <p>Powered by JekyllKB</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
   <!-- JavaScript and Analytics -->
   {% javascript jekyllkb %}

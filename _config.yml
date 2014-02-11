@@ -10,6 +10,9 @@ meta:
   description:
   author:
 
+# Copyright owner's name for footer
+copyright:
+
 # Global Settings
 markdown: redcarpet
 pygments: true

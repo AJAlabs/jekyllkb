@@ -25,12 +25,20 @@
 }
 
 
+// COLOR SCHEME
+// -------------------------
+//TODO: Insert Flat Grayscale color scheme
+
+$black:       #111      !default;
+$white:       #f9f9f9   !default;
+
+
+// Background color for `<body>`. Overrides Bootstrap
+$body-bg:     #f9f9f9   !default;
+
+
 // NAVBAR
 // -------------------------
-
-.navbar {
-  border-radius: 0;
-}
 
 // Navbar links float right for desktop and left for mobile
 @media (max-width: 767px) {
@@ -43,4 +51,12 @@
   .nav-links {
   float: right;
   }
+}
+
+
+// FOOTER
+// -------------------------
+
+footer {
+  background-color: $gray-lighter;
 }
