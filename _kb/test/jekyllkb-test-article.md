@@ -1,6 +1,6 @@
 ---
 layout: kb
-title:  "JekyllKB Knowledge Base Articles"
+title:  "JekyllKB Test Knowledge Base Article"
 date:   2013-11-06 12:06:56
 categories: kb
 ---

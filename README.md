@@ -113,7 +113,12 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 ### Support, Troubleshooting and Discussions
 
-If you're having any problems with JekyllKB, checkout the official [jekyll](http://jekyllrb.com) site, the [JekyllKB](http://jekyllkb.com) site and there's always [stackoverflow](http://stackoverflow.com/questions/tagged/jekyll). You can also see if there's someone available at the #jekyllkb or the #jekyll IRC channels on irc.freenode.net.
+If you're having any problems with JekyllKB, here are a few resources for finding answeres:
+* Official [Jekyll](http://jekyllrb.com) site 
+* [JekyllKB](http://jekyllkb.com) repo
+* [Jekyll Help repo](https://github.com/jekyll/jekyll-help)
+* [stackoverflow](http://stackoverflow.com/questions/tagged/jekyll)
+* You can also see if there's someone available at the #jekyllkb or the #jekyll IRC channels on irc.freenode.net
 
 
 ### License
