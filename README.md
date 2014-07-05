@@ -1,11 +1,11 @@
-## JekyllKB v0.1.1
+## JekyllKB v0.1.2
 
 
 [JekyllKB](http://jekyllkb.com) - A Knowledge Base framework for [jekyll](http://jekyllrb.com) the static site generator in Ruby.
 
 JekyllKB can be used as a knowledge base framework or starter theme for your Jekyll documentation site.
 
-Version 0.1.1 is just a simple Jekyll starter theme. STAY TUNED!
+Version 0.1.2 is just a simple Jekyll starter theme. STAY TUNED!
 
 ### Installation
 
@@ -27,9 +27,9 @@ That's it! You're now ready to start hacking on your new knowledge base. enjoy!
 
 ### Resources & Dependancies
 
-- [Bootstrap Sass](http://getbootstrap.com)
-- [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/)
-- [Jekyll](http://jekyllrb.com/)
+- [Bootstrap Sass](http://getbootstrap.com) - [(source)](https://github.com/twbs/bootstrap-sass)
+- [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/) - [(source)](https://github.com/FortAwesome/Font-Awesome)
+- [Jekyll](http://jekyllrb.com/) - [(source)](https://github.com/jekyll/jekyll)
 - [jekyll-assets](https://github.com/ixti/jekyll-assets)
 - [Liquid - Template engine](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 - [Sass - Syntactically Awesome Stylesheets](http://sass-lang.com/)

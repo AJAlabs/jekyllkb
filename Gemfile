@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 1.4.3'
-gem 'jekyll-assets', '~> 0.7.4'
-gem 'sass', '~> 3.2.11'
+gem 'jekyll', '~> 2.1.0'
+gem 'jekyll-assets', '~> 0.8.1'
+gem 'sass', '~> 3.3.9'
 gem 'uglifier'

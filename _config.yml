@@ -1,4 +1,4 @@
-# JekyllKB v0.1.1 - Configuration and Settings
+# JekyllKB v0.1.2 - Configuration and Settings
 # Details and configuration options can be found
 # here: http://jekyllrb.com/docs/configuration/
 #
@@ -15,17 +15,19 @@ copyright:
 
 # Global Settings
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 encoding: UTF-8
 
 # List of time zones supported in the TZ database
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/New_York
 
-# Permalinks
+# Permalink Style
+# http://jekyllrb.com/docs/permalinks/#built-in-permalink-styles
+# output: /:categories/:title.html
 permalink: none
 
-# Absolute permalinks allows us to store pages in a pages subdirectory
+# Absolute permalinks allows us to store pages in a page subdirectory
 # and customize how the permalink appear on a page by page basis
 # ie: A file in pages/resources/getting-started.html can have the permalink of
 # http://mydomain.com/resources/getting-started.html
@@ -33,6 +35,12 @@ relative_permalinks: false
 
 # Exclude the following files/directories from being converted
 exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
+
+# Collections support for the Knowledge Base
+# http://jekyllrb.com/docs/collections/
+collections:
+  kb:
+    output: true
 
 #########################
 # Plugin: jekyll-assets #
